@@ -17,7 +17,7 @@ body {
   color: var(--section-color);
 }
 /* End Format button */
-/* Start Navbar */
+/* Start navbar */
 .navbar {
   background-color: var(--dark-color);
 }
@@ -94,8 +94,7 @@ body {
   background-color: var(--section-color);
 }
 .our-work ul .active {
-  background-color: var(--blue-color);
-  color: var(--yellow-color);
+  background-color: var(--blue-color); 
 }
 .our-work ul li {
   padding: 0.5rem 1rem;
@@ -137,9 +136,6 @@ body {
 .team {
   background-color: var(--section-color);
 }
-.team h2 {
-  color: var(--yellow-color);
-}
 .team .box h4 {
   background-color: var(--green-color);
 }
@@ -151,7 +147,7 @@ body {
 /* End Project */
 /* Start Subscribe */
 .subscribe {
-  background-color: var(--yellow-color);
+  background-color: var(--green-color);
 }
 .subscribe input[type="text"] {
   border: none;
@@ -164,6 +160,10 @@ body {
   color: white;
 }
 .subscribe input[type="submit"] {
+  background-color: var(--dark-color);
+  color: var(--section-color);
+}
+.subscribe input[type="reset"] {
   background-color: var(--dark-color);
   color: var(--section-color);
 }
